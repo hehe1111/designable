@@ -31,9 +31,10 @@ CustomButton.Resource = createResource('Customs', {
       componentName: 'Field',
       props: {
         // 字段属性 > 标题
-        title: '',
+        title: 'Button',
         'x-decorator': 'FormItem',
         'x-component': 'CustomButton',
+        'x-component-props': { children: '按钮' },
       },
     },
   ],

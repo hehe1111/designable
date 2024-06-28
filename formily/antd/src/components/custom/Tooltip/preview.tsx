@@ -36,7 +36,7 @@ CustomTooltip.Resource = createResource('Customs', {
       componentName: 'Field',
       props: {
         // 字段属性 > 标题
-        title: '',
+        title: '气泡提示',
         'x-decorator': 'FormItem',
         'x-component': 'CustomTooltip',
       },
